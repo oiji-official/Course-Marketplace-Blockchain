@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Create a keys.json file in the root of the project with ->
+{
+    "INFURA_PROJECT_ID": "#Your Infura Project ID",
+    "MNEMONIC": "#The mnemonic or seed phrase of the account which will deploy the contract"
+}
+
 ## Getting Started
 
 First, run the development server:
